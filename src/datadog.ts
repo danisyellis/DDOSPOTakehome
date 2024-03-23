@@ -2,7 +2,7 @@ import { client, v2 } from '@datadog/datadog-api-client';
 
 const configurationOpts = {
     authMethods: {
-        apiKeyAuth: '2b88dead9a5235c35203a130d707835e',
+        apiKeyAuth: '',
     },
 };
 

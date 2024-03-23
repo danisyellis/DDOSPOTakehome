@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const apitoken = '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';
+const apitoken = '';
 const head = {
     'User-Agent': 'request',
     Authorization: 'token ' + apitoken,

@@ -42,7 +42,7 @@ Active Recurring Contributors are people who have contributed more than once ove
     (And will potentially make a PR to fix it, depending on the maintainer's response)
 
 
-### If you'd like to run this code yourself, simply `cd` into the folder holding the project and then run
+### If you'd like to run this code yourself, simply `cd` into the folder holding the project, add the github and datadog API keys (found in the notes of my submission on Greenhouse) to `datadog.ts` line 5 and `github.ts` line 3, and then run
 `npm install`
 `npx tsc`
 `npm start`
