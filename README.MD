@@ -3,14 +3,17 @@
 ### My Datadog Organization name is the same as my name "Danielle Gellis"
 
 You'll see a lot of metrics because of the DD Agent that I had to install to get the free trial started. You can ignore those.
-
+<br>
+<br>
 ### **The custom metrics I'm grabbing from GitHub are**
 #### - pull_requests.open 
-The number of pull requests open at the time the metric was grabbed.
-This metric can be used by project maintainers to, at a glance, see how many PRs are currently open
+    The number of pull requests open at the time the metric was grabbed.
+    This metric can be used by project maintainers to, at a glance, see how many PRs are currently open
 #### - issues.open
-The number of issues open at the time the metric was grabbed.
+    The number of issues open at the time the metric was grabbed.
 
+<br> 
+<br> 
 
 ## With more time, I would have...
 - If this were a production project, I'd set it up to run once a day to grab these metrics.
@@ -36,13 +39,21 @@ The number of issues open at the time the metric was grabbed.
 - Time till first response for both PRs and issues
     - This would look at the first comment made by someone other than the submitter (or maybe the first comment by someone who's an Maintainer/Admin of the repo )
 
+<br> 
+<br> 
+
 ## Note for transparency:
 I completed this project in the allotted 3-4 hours, but I am using a previously created template as a base. The template gave me the skeleton of a project with TypeSctipt, Eslint, and Jest hooked up. (There are similar templates available as Node libraries that I could have pulled in, but I prefer my own.)
+
+<br> 
+<br> 
 
 ## Other things:
 The docs for Datadog's Node.js API Client have a word missing that makes the instructions a bit unclear. So I created an issue for it https://github.com/DataDog/datadog-api-client-typescript/issues/1573 
 (And will potentially make a PR to fix it, depending on the maintainer's response)
 
+<br> 
+<br> 
 
 ## If you'd like to run this code yourself
 - clone this repo locally
